@@ -317,9 +317,11 @@ select {
 img {
   position: relative;
   left: 40px;
+  bottom: 40px;
 
   @media (max-width: 900px) {
     left: 20px;
+    bottom: 20px;
   }
 
   image-rendering: auto;
