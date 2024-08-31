@@ -137,6 +137,7 @@ p {
   max-width: var(--bp-xlarge);
   width: 100%;
   margin: 0 auto;
+  border-style: solid;
 }
 
 .vh-100 {
@@ -161,7 +162,9 @@ p {
 
 
 
-
+#hero{
+background-color: #0f1422;
+}
 
 
 /*css start*/
