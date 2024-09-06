@@ -172,7 +172,9 @@ p {
 
   
 
-    /* background: linear-gradient(58deg, rgba(33, 34, 114, 0.267) 0%, rgba(2, 0, 36, 0.053734872855392135) 45%); */
+    background: linear-gradient(58deg, rgba(33, 34, 114, 0.267) 0%, rgba(2, 0, 36, 0.053734872855392135) 45%);
+
+    
 
 
 }
@@ -273,9 +275,11 @@ p {
 
 .title-div-right {
   width: 50%;
- 
   align-self: center;
-  /* box-sizing: border-box; */
+    @media screen and (orientation: portrait) {
+    width: 70%;
+    max-width: 50vw;
+  }
 }
 
 .hero-img {
@@ -286,10 +290,11 @@ p {
   border-radius: 100%;
   /* opacity: 90%; */
   /* filter: brightness(90%); */
-  /* filter:hue-rotate(deg); */
-  /* filter: drop-shadow(0px 0px 50px rgb(11, 38, 61)); */
-  /* box-shadow: -1px 0px 215px 110px rgba(255,255,255,0.67);
--webkit-box-shadow: -1px 0px 215px 110px rgba(255,255,255,0.67);
+  /* filter:hue-rotate(18deg);
+  filter: invert(3%); */
+  /* filter: drop-shadow(0px 0px 100px rgb(255, 255, 255)); */
+  /* box-shadow: 0px 0px 10px 1px rgba(7, 8, 54, 0.979); */
+/* -webkit-box-shadow: -1px 0px 215px 110px rgba(255,255,255,0.67);
 -moz-box-shadow: -1px 0px 215px 110px rgba(255,255,255,0.67); */
 
 
